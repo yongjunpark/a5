@@ -1,0 +1,18 @@
+
+<!doctype html><meta charset="utf-8">
+<body>
+    <div id="myRect" style="width:100px;height:100px;background: yellow;transition: all 1s"></div>
+    <input type="range" id="myPicker" min='200' max="1000"><div id="randgevalue"></div>
+    
+
+<script>
+    myPicker.onchange=function(){
+        myRect.style.marginLeft=myPicker.
+        value + "px";
+        randgevalue.innerHTML =myPicker.value;
+
+    }
+</script>
+
+
+</body>
